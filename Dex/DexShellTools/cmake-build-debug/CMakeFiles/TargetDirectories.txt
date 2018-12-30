@@ -1,0 +1,3 @@
+/Users/smallsun/Desktop/AndroidShell/Dex/DexShellTools/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/smallsun/Desktop/AndroidShell/Dex/DexShellTools/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/smallsun/Desktop/AndroidShell/Dex/DexShellTools/cmake-build-debug/CMakeFiles/DexShellTools.dir
