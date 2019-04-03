@@ -171,27 +171,6 @@ int FormatDex(char *buffer)
 
 }
 
-/*
- * 这算法不对
-const uint32_t MOD_ADLER = 65521;
-uint32_t adler32(unsigned char *buffer, size_t len)
-
-//    where buffer is the location of the buffer in physical memory and
-//    len is the length of the buffer in bytes
-
-{
-    uint32_t a = 1, b = 0;
-    size_t index;
-
-    // Process each byte of the buffer in order
-    for (index = 0; index < len; ++index) {
-        a = (a + buffer[index]) % MOD_ADLER;
-        b = (b + a) % MOD_ADLER;
-    }
-
-    return (b << 16) | a;
-}
-*/
 
 #define BASE 65521
 unsigned long adler32(unsigned char *buf, int len)
